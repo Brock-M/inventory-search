@@ -1,0 +1,146 @@
+#model-list {
+    visibility: hidden;
+}
+#models {
+    visibility: hidden;
+}
+div {
+    display: block;
+}
+.InventoryModule {
+    z-index: 902;
+    position: relative;
+    zoom: 1;
+}
+.block {
+    border: 1px solid #D9D9D9;
+    padding: 5px;
+    margin: 3px;
+}
+.blockheader {
+    background: #ff861d;
+    background: -moz-linear-gradient(top, #ff861d 0%, #de6800 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff861d), color-stop(100%,#de6800));
+    background: -webkit-linear-gradient(top, #ff861d 0%,#de6800 100%);
+    background: -o-linear-gradient(top, #ff861d 0%,#de6800 100%);
+    background: -ms-linear-gradient(top, #ff861d 0%,#de6800 100%);
+    background: linear-gradient(to bottom, #ff861d 0%,#de6800 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff861d', endColorstr='#de6800',GradientType=0 );
+    z-index: auto;
+    padding: 6px 5px;
+    margin: 0 auto 2px;
+}
+.blockheader .t {
+	color: #FCFCFC;
+    font-size: 18px;
+    font-family: Oxygen, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 5px;
+}
+h3 {
+	padding: 0;
+	display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.blockcontent {
+    padding: 5px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 175%;
+    text-align: left;
+}
+.blockcontent .Normal {
+    color: #000000;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.ModuleContent {
+    max-height: 400px;
+    overflow: scroll;
+}
+label {
+    cursor: default;
+}
+table {
+    text-align: left;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    width: 100%;
+}
+table.position {
+    position: static;
+    width: 100%;
+    table-layout: fixed;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: top;
+    border-color: inherit;
+}
+th {
+    color: #000000;
+    font-weight: bold;
+	font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+td[Attributes Style] {
+    width: 50%;
+}
+.block select {
+    width: 96%;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+select, select[size="0"], select[size="1"] {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+#result {
+    padding-top: 10px;
+}
+#result table {
+    border-spacing: 0;
+}
